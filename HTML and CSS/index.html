@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning CSS</title>
+    <style>
+        body{
+            background: rgb(29, 29, 18);
+        }
+        .outer{
+            height: 600px;
+            width: 40%;
+            border: 2px solid white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .inner{
+            height: 100px;
+            width: 100px;
+            border: 2px solid white;
+            margin: 10px;
+            color: white;
+            overflow: hidden;
+            padding: 10px;
+        }
+        #nd-div{
+            border: 2px solid green;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="inner">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde incidunt enim suscipit a architecto quisquam voluptatibus magnam vel nobis cumque aspernatur sed, autem quae perspiciatis officia laborum quod voluptas. Praesentium.</div>
+        <div class="inner" id="nd-div"></div>
+        <div class="inner"></div>
+        <div class="inner"></div>
+        <div class="inner"></div>
+        <div class="inner"></div>
+        <div class="inner"></div>
+        <div class="inner"></div>
+        <div class="inner"></div>
+        <div class="inner"></div>
+        <div class="inner"></div>
+        <div class="inner"></div>
+        <!-- <div class="inner"></div> -->
+    </div>
+</body>
+</html>
